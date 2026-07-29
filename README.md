@@ -12,7 +12,7 @@ CollectorsHub is a platform where collectors can browse collectible items in a m
 
 ## GitHub Repository
 
-**Repository:** https://github.com/yourusername/collectors-hub
+**Repository:** https://github.com/Namrata52/collectors-hub
 
 ---
 
@@ -100,6 +100,7 @@ Manage your personal collectibles.
 - Smooth image transitions
 - Responsive navigation with mobile menu
 - Local state management using React Context API
+- Local Storage persistence
 
 ---
 
@@ -222,7 +223,7 @@ npm run preview
 - Estimated collection values are mock values.
 - Wishlist and Owned collections are managed using React Context API.
 - Images are loaded from public URLs with a fallback component for missing images.
-- Data persistence is limited to the current session.
+- Data persistence is limited to the cu session.
 
 ---
 
@@ -260,14 +261,10 @@ Beyond the assignment requirements, the following enhancements were implemented:
 
 - Selling collection support
 - Infinite scrolling
-- Dark mode
-- Skeleton loaders
-- Local Storage persistence
 - Backend integration
 - User authentication
 - Comments functionality
 - Pagination
-- Image uploads
 - Real-time updates
 
 ---
