@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Charizard Pokémon Card",
+    "image": "https://images.unsplash.com/photo-1618331833071-ce81bd50d300",
+    "category": "Trading Cards",
+    "condition": "Mint",
+    "price": 250,
+    "seller": "John",
+    "location": "London",
+    "createdAt": "2026-07-20",
+    "description": "Rare holographic Charizard card."
+  },
+  {
+    "id": 2,
+    "title": "Vintage Coin",
+    "image": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247",
+    "category": "Coins",
+    "condition": "Excellent",
+    "price": 120,
+    "seller": "Sarah",
+    "location": "Manchester",
+    "createdAt": "2026-07-18",
+    "description": "Limited edition old coin."
+  }
+]

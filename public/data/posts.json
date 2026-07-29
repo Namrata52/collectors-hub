@@ -1,0 +1,176 @@
+
+[
+  {
+    "id": 1,
+    "author": "Alex Morgan",
+    "handle": "@alexcards",
+    "username": "Alex",
+    "avatar": "https://i.pravatar.cc/100?ImageWithFallback=1",
+    "image": "https://images.unsplash.com/photo-1618331833071-ce81bd50d300",
+    "caption": "Finally found this amazing Charizard card!",
+    "likes": 120,
+    "comments": [
+      {
+        "id": 1,
+        "author": "Sarah",
+        "handle": "@coinqueen",
+        "avatar": "https://i.pravatar.cc/150?img=20",
+        "text": "Congratulations! That's an incredible find."
+      },
+      {
+        "id": 2,
+        "author": "Mike",
+        "handle": "@vault12",
+        "avatar": "https://i.pravatar.cc/150?img=28",
+        "text": "Worth every year of the wait."
+      }
+    ],
+    "category": "Trading Cards",
+    "createdAt": "2026-07-15",
+    "body": ""
+  },
+  {
+    "id": 2,
+    "author": "Sarah",
+    "handle": "@sarachcoins",
+    "username": "Sarah",
+    "avatar": "https://i.pravatar.cc/100?ImageWithFallback=2",
+    "image": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247",
+    "caption": "My latest vintage coin collection.",
+    "likes": 80,
+    "comments": [
+      {
+        "id": 1,
+        "author": "Sarah",
+        "handle": "@coinqueen",
+        "avatar": "https://i.pravatar.cc/150?img=20",
+        "text": "Congratulations! That's an incredible find."
+      },
+      {
+        "id": 2,
+        "author": "Mike",
+        "handle": "@vault12",
+        "avatar": "https://i.pravatar.cc/150?img=28",
+        "text": "Worth every year of the wait."
+      }
+    ],
+    "category": "Coins",
+    "body": ""
+  },
+  {
+    "id": 3,
+    "author": "Daniel Brooks",
+    "handle": "@cardhunter",
+    "username": "Daniel",
+    "avatar": "https://i.pravatar.cc/100?img=13",
+    "image": "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da",
+    "caption": "Completed my first edition Pokémon binder today!",
+    "likes": 156,
+    "comments": [
+      {
+        "id": 1,
+        "author": "Alex",
+        "handle": "@alexcards",
+        "avatar": "https://i.pravatar.cc/150?img=12",
+        "text": "That collection is looking amazing!"
+      },
+      {
+        "id": 2,
+        "author": "Emma",
+        "handle": "@tradingtreasures",
+        "avatar": "https://i.pravatar.cc/150?img=33",
+        "text": "Love the binder layout!"
+      }
+    ],
+    "category": "Trading Cards",
+    "createdAt": "2026-07-18",
+    "body": ""
+  },
+  {
+    "id": 4,
+    "author": "Emma Wilson",
+    "handle": "@coinqueen",
+    "username": "Emma",
+    "avatar": "https://i.pravatar.cc/100?img=32",
+    "image": "https://images.unsplash.com/photo-1610375461246-83df859d849d",
+    "caption": "Picked up this rare silver coin from a local auction.",
+    "likes": 97,
+    "comments": [
+      {
+        "id": 1,
+        "author": "Sarah",
+        "handle": "@sarahcoins",
+        "avatar": "https://i.pravatar.cc/150?img=20",
+        "text": "That coin has incredible detail!"
+      },
+      {
+        "id": 2,
+        "author": "Daniel",
+        "handle": "@cardhunter",
+        "avatar": "https://i.pravatar.cc/150?img=13",
+        "text": "Great auction find!"
+      }
+    ],
+    "category": "Coins",
+    "createdAt": "2026-07-20",
+    "body": ""
+  },
+  {
+    "id": 5,
+    "author": "Olivia Carter",
+    "handle": "@tcgcollector",
+    "username": "Olivia",
+    "avatar": "https://i.pravatar.cc/100?img=45",
+    "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420",
+    "caption": "Weekend trade finally landed me this holographic favourite.",
+    "likes": 189,
+    "comments": [
+      {
+        "id": 1,
+        "author": "Mike",
+        "handle": "@vault12",
+        "avatar": "https://i.pravatar.cc/150?img=28",
+        "text": "Definitely worth the trade!"
+      },
+      {
+        "id": 2,
+        "author": "Alex",
+        "handle": "@alexcards",
+        "avatar": "https://i.pravatar.cc/150?img=12",
+        "text": "One of the best-looking cards ever."
+      }
+    ],
+    "category": "Trading Cards",
+    "createdAt": "2026-07-22",
+    "body": ""
+  },
+  {
+    "id": 6,
+    "author": "Michael Reed",
+    "handle": "@vintagevault",
+    "username": "Michael",
+    "avatar": "https://i.pravatar.cc/100?img=55",
+    "image": "https://images.pexels.com/photos/6732659/pexels-photo-6732659.jpeg",
+    "caption": "Spent months searching before adding this commemorative coin to my collection.",
+    "likes": 142,
+    "comments": [
+      {
+        "id": 1,
+        "author": "Emma",
+        "handle": "@coinqueen",
+        "avatar": "https://i.pravatar.cc/150?img=32",
+        "text": "Persistence pays off!"
+      },
+      {
+        "id": 2,
+        "author": "Sarah",
+        "handle": "@sarahcoins",
+        "avatar": "https://i.pravatar.cc/150?img=20",
+        "text": "Beautiful addition to your collection."
+      }
+    ],
+    "category": "Coins",
+    "createdAt": "2026-07-24",
+    "body": ""
+  }
+]
