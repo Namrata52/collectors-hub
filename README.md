@@ -12,7 +12,7 @@ CollectorsHub is a platform where collectors can browse collectible items in a m
 
 ## GitHub Repository
 
-**Repository:** https://github.com/yourusername/collectors-hub
+**Repository:** https://github.com/Namrata52/collectors-hub
 
 ---
 
