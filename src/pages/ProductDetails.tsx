@@ -1,4 +1,4 @@
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Loading from "../components/common/Loading";
 import ErrorState from "../components/common/ErrorState";
@@ -7,7 +7,7 @@ import type { Product } from "../types/product";
 import { useCollection } from "../context/CollectionContext";
 import toast from "react-hot-toast";
 import ImageWithFallback from "../components/common/ImageWithFallback";
-import { ArrowLeft, Heart, MapPin, Plus, ShieldCheck } from "lucide-react";
+import { Heart, MapPin, Plus } from "lucide-react";
 import { cn } from "../lib/utils";
 import Badge from "../components/common/Badge";
 const ProductDetails = () => {

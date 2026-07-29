@@ -1,10 +1,8 @@
 import type { Product } from "../../types/product";
 import { Link } from "react-router-dom";
 import ImageWithFallback from "../common/ImageWithFallback";
-import { Heart, MapPin } from "lucide-react";
-import { cn } from "../../lib/utils";
+import { MapPin } from "lucide-react";
 import Badge from "../common/Badge";
-import { useCollection } from "../../context/CollectionContext";
 type Props = {
   product: Product;
 };
@@ -17,7 +15,7 @@ export function formatPrice(value: number) {
   }).format(value);
 }
 const ProductCard = ({ product }: Props) => {
-  const entries = useCollection();
+ 
   
   return (
     <div>
@@ -26,26 +24,14 @@ const ProductCard = ({ product }: Props) => {
           <ImageWithFallback
             src={product.image}
             alt={product.title}
-            // width={1024}
-            // height={1280}
+            
             className="aspect-4/5 w-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105"
           />
           <div className="absolute left-3 top-3 flex flex-wrap gap-2">
             <Badge variant="gold" >{product.category}</Badge>
             <Badge  variant="dark">{product.condition}</Badge>
           </div>
-          {/* <button
-            type="button"
-            
-            className="absolute right-3 top-3 grid h-10 w-10 place-items-center rounded-full bg-card/85 shadow-soft backdrop-blur transition-transform hover:scale-110"
-          >
-            <Heart
-              className={cn(
-                "h-4 w-4",
-               
-              )}
-            />
-          </button> */}
+          
         </div>
 
         <div className="flex flex-1 flex-col gap-4 px-5 pb-5 text-left">
@@ -71,31 +57,7 @@ const ProductCard = ({ product }: Props) => {
           </div>
         </div>
       </article>
-      {/* <ImageWithFallback
-        src={product.image}
-        alt={product.title}
-        className="w-full h-52 object-cover"
-      />
-
-      <div className="p-4">
-        <h2 className="font-semibold">{product.title}</h2>
-
-        <p>{product.category}</p>
-
-        <p>{product.condition}</p>
-
-        <p className="font-bold">£{product.price}</p>
-
-        <button className="mt-4 bg-blue-600 text-white px-4 py-2 rounded">
-          View Details
-        </button>
-        <Link
-          to={`/product/${product.id}`}
-          className="bg-blue-600 text-white px-4 py-2 rounded inline-block mt-4"
-        >
-          View Details
-        </Link>
-      </div> */}
+      
     </div>
   );
 };

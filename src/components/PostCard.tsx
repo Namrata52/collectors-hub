@@ -8,10 +8,8 @@ type Props = {
 };
 
 const PostCard = ({ post }: Props) => {
-  const { likedPosts, savedPosts, toggleLike, toggleSave } = usePost();
+  const { likedPosts} = usePost();
   const liked = likedPosts.includes(post.id);
-
-  const saved = savedPosts.includes(post.id);
 
   const likes = liked ? post.likes + 1 : post.likes;
   return (
@@ -49,6 +47,7 @@ const PostCard = ({ post }: Props) => {
 
               <button>
                 <Bookmark />
+                
               </button>
             </div>
           </div>

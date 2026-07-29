@@ -68,7 +68,7 @@ const PostDetails = () => {
 
     const saved = savedPosts.includes(post.id);
 
-    const likes = liked ? post.likes + 1 : post.likes;
+
 
     if (loading) {
       return <Loading />;
@@ -105,11 +105,10 @@ const PostDetails = () => {
       </header>
 
       <div className="mt-12 overflow-hidden rounded-4xl border border-border bg-card p-3 shadow-soft">
-        <img
+        <ImageWithFallback
           src={post.image}
           alt={post.caption}
-          width={1024}
-          height={1280}
+    
           className="aspect-4/3 w-full rounded-3xl object-cover"
         />
       </div>

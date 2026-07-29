@@ -1,12 +1,11 @@
 import ProductCard from "../components/marketplace/ProductCard";
-// import { products } from "../data/products";
 import { useEffect, useState } from "react";
 import FilterBar from "../components/marketplace/FilterBar";
 import EmptyState from "../components/common/EmptyState";
 import Loading from "../components/common/Loading";
 import type { Product } from "../types/product";
 import ErrorState from "../components/common/ErrorState";
-import { Search } from "lucide-react";
+
 const Marketplace = () => {
   const [search, setSearch] = useState("");
 
