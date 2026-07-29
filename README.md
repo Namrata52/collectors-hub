@@ -8,7 +8,7 @@ CollectorsHub is a platform where collectors can browse collectible items in a m
 
 ## Live Demo
 
-**Live Website:** https://your-vercel-link.vercel.app
+**Live Website:** https://collectors-hub-rust.vercel.app/community
 
 ## GitHub Repository
 
